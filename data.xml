@@ -1,0 +1,13 @@
+<?xml version = "1.0"?>
+<catalog>
+    <item>
+        <title> Es un titulo1 </title>
+        <link> Es un link1 </link>
+    </item>
+    <item>
+        <title> Es un titulo2 </title>
+        <link> Es un link2</link>
+    </item>
+
+</catalog>
+

@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5611723B1FAFE07D00BB8BEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5611723A1FAFE07D00BB8BEF /* AppDelegate.swift */; };
+		5611723D1FAFE07D00BB8BEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5611723C1FAFE07D00BB8BEF /* ViewController.swift */; };
+		561172401FAFE07D00BB8BEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5611723E1FAFE07D00BB8BEF /* Main.storyboard */; };
+		561172431FAFE07D00BB8BEF /* moofwd.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 561172411FAFE07D00BB8BEF /* moofwd.xcdatamodeld */; };
+		561172451FAFE07D00BB8BEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 561172441FAFE07D00BB8BEF /* Assets.xcassets */; };
+		561172481FAFE07D00BB8BEF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 561172461FAFE07D00BB8BEF /* LaunchScreen.storyboard */; };
+		561172531FAFE07D00BB8BEF /* moofwdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561172521FAFE07D00BB8BEF /* moofwdTests.swift */; };
+		5611725E1FAFE07D00BB8BEF /* moofwdUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5611725D1FAFE07D00BB8BEF /* moofwdUITests.swift */; };
+		5611726E1FAFEA8B00BB8BEF /* DetalleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5611726D1FAFEA8B00BB8BEF /* DetalleViewController.swift */; };
+		561172701FAFF68000BB8BEF /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5611726F1FAFF68000BB8BEF /* data.swift */; };
+		5671F9A51FB138F400C74A37 /* data.xml in Resources */ = {isa = PBXBuildFile; fileRef = 5671F9A41FB138F400C74A37 /* data.xml */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5611724F1FAFE07D00BB8BEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5611722F1FAFE07C00BB8BEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 561172361FAFE07C00BB8BEF;
+			remoteInfo = moofwd;
+		};
+		5611725A1FAFE07D00BB8BEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5611722F1FAFE07C00BB8BEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 561172361FAFE07C00BB8BEF;
+			remoteInfo = moofwd;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		561172371FAFE07D00BB8BEF /* moofwd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moofwd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5611723A1FAFE07D00BB8BEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5611723C1FAFE07D00BB8BEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5611723F1FAFE07D00BB8BEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		561172421FAFE07D00BB8BEF /* moofwd.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = moofwd.xcdatamodel; sourceTree = "<group>"; };
+		561172441FAFE07D00BB8BEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		561172471FAFE07D00BB8BEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		561172491FAFE07D00BB8BEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5611724E1FAFE07D00BB8BEF /* moofwdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moofwdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		561172521FAFE07D00BB8BEF /* moofwdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moofwdTests.swift; sourceTree = "<group>"; };
+		561172541FAFE07D00BB8BEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		561172591FAFE07D00BB8BEF /* moofwdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moofwdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5611725D1FAFE07D00BB8BEF /* moofwdUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moofwdUITests.swift; sourceTree = "<group>"; };
+		5611725F1FAFE07D00BB8BEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5611726D1FAFEA8B00BB8BEF /* DetalleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleViewController.swift; sourceTree = "<group>"; };
+		5611726F1FAFF68000BB8BEF /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
+		5671F9A41FB138F400C74A37 /* data.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = data.xml; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		561172341FAFE07C00BB8BEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5611724B1FAFE07D00BB8BEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561172561FAFE07D00BB8BEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5611722E1FAFE07C00BB8BEF = {
+			isa = PBXGroup;
+			children = (
+				5611726F1FAFF68000BB8BEF /* data.swift */,
+				5611726D1FAFEA8B00BB8BEF /* DetalleViewController.swift */,
+				5671F9A41FB138F400C74A37 /* data.xml */,
+				561172391FAFE07D00BB8BEF /* moofwd */,
+				561172511FAFE07D00BB8BEF /* moofwdTests */,
+				5611725C1FAFE07D00BB8BEF /* moofwdUITests */,
+				561172381FAFE07D00BB8BEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		561172381FAFE07D00BB8BEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				561172371FAFE07D00BB8BEF /* moofwd.app */,
+				5611724E1FAFE07D00BB8BEF /* moofwdTests.xctest */,
+				561172591FAFE07D00BB8BEF /* moofwdUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		561172391FAFE07D00BB8BEF /* moofwd */ = {
+			isa = PBXGroup;
+			children = (
+				5611723A1FAFE07D00BB8BEF /* AppDelegate.swift */,
+				5611723C1FAFE07D00BB8BEF /* ViewController.swift */,
+				5611723E1FAFE07D00BB8BEF /* Main.storyboard */,
+				561172441FAFE07D00BB8BEF /* Assets.xcassets */,
+				561172461FAFE07D00BB8BEF /* LaunchScreen.storyboard */,
+				561172491FAFE07D00BB8BEF /* Info.plist */,
+				561172411FAFE07D00BB8BEF /* moofwd.xcdatamodeld */,
+			);
+			path = moofwd;
+			sourceTree = "<group>";
+		};
+		561172511FAFE07D00BB8BEF /* moofwdTests */ = {
+			isa = PBXGroup;
+			children = (
+				561172521FAFE07D00BB8BEF /* moofwdTests.swift */,
+				561172541FAFE07D00BB8BEF /* Info.plist */,
+			);
+			path = moofwdTests;
+			sourceTree = "<group>";
+		};
+		5611725C1FAFE07D00BB8BEF /* moofwdUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5611725D1FAFE07D00BB8BEF /* moofwdUITests.swift */,
+				5611725F1FAFE07D00BB8BEF /* Info.plist */,
+			);
+			path = moofwdUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		561172361FAFE07C00BB8BEF /* moofwd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 561172621FAFE07D00BB8BEF /* Build configuration list for PBXNativeTarget "moofwd" */;
+			buildPhases = (
+				561172331FAFE07C00BB8BEF /* Sources */,
+				561172341FAFE07C00BB8BEF /* Frameworks */,
+				561172351FAFE07C00BB8BEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = moofwd;
+			productName = moofwd;
+			productReference = 561172371FAFE07D00BB8BEF /* moofwd.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5611724D1FAFE07D00BB8BEF /* moofwdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 561172651FAFE07D00BB8BEF /* Build configuration list for PBXNativeTarget "moofwdTests" */;
+			buildPhases = (
+				5611724A1FAFE07D00BB8BEF /* Sources */,
+				5611724B1FAFE07D00BB8BEF /* Frameworks */,
+				5611724C1FAFE07D00BB8BEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				561172501FAFE07D00BB8BEF /* PBXTargetDependency */,
+			);
+			name = moofwdTests;
+			productName = moofwdTests;
+			productReference = 5611724E1FAFE07D00BB8BEF /* moofwdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		561172581FAFE07D00BB8BEF /* moofwdUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 561172681FAFE07D00BB8BEF /* Build configuration list for PBXNativeTarget "moofwdUITests" */;
+			buildPhases = (
+				561172551FAFE07D00BB8BEF /* Sources */,
+				561172561FAFE07D00BB8BEF /* Frameworks */,
+				561172571FAFE07D00BB8BEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5611725B1FAFE07D00BB8BEF /* PBXTargetDependency */,
+			);
+			name = moofwdUITests;
+			productName = moofwdUITests;
+			productReference = 561172591FAFE07D00BB8BEF /* moofwdUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5611722F1FAFE07C00BB8BEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = RentalApps;
+				TargetAttributes = {
+					561172361FAFE07C00BB8BEF = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					5611724D1FAFE07D00BB8BEF = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 561172361FAFE07C00BB8BEF;
+					};
+					561172581FAFE07D00BB8BEF = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 561172361FAFE07C00BB8BEF;
+					};
+				};
+			};
+			buildConfigurationList = 561172321FAFE07C00BB8BEF /* Build configuration list for PBXProject "moofwd" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5611722E1FAFE07C00BB8BEF;
+			productRefGroup = 561172381FAFE07D00BB8BEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				561172361FAFE07C00BB8BEF /* moofwd */,
+				5611724D1FAFE07D00BB8BEF /* moofwdTests */,
+				561172581FAFE07D00BB8BEF /* moofwdUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		561172351FAFE07C00BB8BEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561172481FAFE07D00BB8BEF /* LaunchScreen.storyboard in Resources */,
+				5671F9A51FB138F400C74A37 /* data.xml in Resources */,
+				561172451FAFE07D00BB8BEF /* Assets.xcassets in Resources */,
+				561172401FAFE07D00BB8BEF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5611724C1FAFE07D00BB8BEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561172571FAFE07D00BB8BEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		561172331FAFE07C00BB8BEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5611726E1FAFEA8B00BB8BEF /* DetalleViewController.swift in Sources */,
+				561172431FAFE07D00BB8BEF /* moofwd.xcdatamodeld in Sources */,
+				5611723D1FAFE07D00BB8BEF /* ViewController.swift in Sources */,
+				561172701FAFF68000BB8BEF /* data.swift in Sources */,
+				5611723B1FAFE07D00BB8BEF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5611724A1FAFE07D00BB8BEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561172531FAFE07D00BB8BEF /* moofwdTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561172551FAFE07D00BB8BEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5611725E1FAFE07D00BB8BEF /* moofwdUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		561172501FAFE07D00BB8BEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 561172361FAFE07C00BB8BEF /* moofwd */;
+			targetProxy = 5611724F1FAFE07D00BB8BEF /* PBXContainerItemProxy */;
+		};
+		5611725B1FAFE07D00BB8BEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 561172361FAFE07C00BB8BEF /* moofwd */;
+			targetProxy = 5611725A1FAFE07D00BB8BEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5611723E1FAFE07D00BB8BEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5611723F1FAFE07D00BB8BEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		561172461FAFE07D00BB8BEF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				561172471FAFE07D00BB8BEF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		561172601FAFE07D00BB8BEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		561172611FAFE07D00BB8BEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		561172631FAFE07D00BB8BEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Y7A6GRU4X;
+				INFOPLIST_FILE = moofwd/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RentalApps.moofwd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		561172641FAFE07D00BB8BEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Y7A6GRU4X;
+				INFOPLIST_FILE = moofwd/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RentalApps.moofwd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		561172661FAFE07D00BB8BEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Y7A6GRU4X;
+				INFOPLIST_FILE = moofwdTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RentalApps.moofwdTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moofwd.app/moofwd";
+			};
+			name = Debug;
+		};
+		561172671FAFE07D00BB8BEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Y7A6GRU4X;
+				INFOPLIST_FILE = moofwdTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RentalApps.moofwdTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moofwd.app/moofwd";
+			};
+			name = Release;
+		};
+		561172691FAFE07D00BB8BEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Y7A6GRU4X;
+				INFOPLIST_FILE = moofwdUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RentalApps.moofwdUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = moofwd;
+			};
+			name = Debug;
+		};
+		5611726A1FAFE07D00BB8BEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2Y7A6GRU4X;
+				INFOPLIST_FILE = moofwdUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RentalApps.moofwdUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = moofwd;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		561172321FAFE07C00BB8BEF /* Build configuration list for PBXProject "moofwd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561172601FAFE07D00BB8BEF /* Debug */,
+				561172611FAFE07D00BB8BEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		561172621FAFE07D00BB8BEF /* Build configuration list for PBXNativeTarget "moofwd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561172631FAFE07D00BB8BEF /* Debug */,
+				561172641FAFE07D00BB8BEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		561172651FAFE07D00BB8BEF /* Build configuration list for PBXNativeTarget "moofwdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561172661FAFE07D00BB8BEF /* Debug */,
+				561172671FAFE07D00BB8BEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		561172681FAFE07D00BB8BEF /* Build configuration list for PBXNativeTarget "moofwdUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561172691FAFE07D00BB8BEF /* Debug */,
+				5611726A1FAFE07D00BB8BEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		561172411FAFE07D00BB8BEF /* moofwd.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				561172421FAFE07D00BB8BEF /* moofwd.xcdatamodel */,
+			);
+			currentVersion = 561172421FAFE07D00BB8BEF /* moofwd.xcdatamodel */;
+			path = moofwd.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5611722F1FAFE07C00BB8BEF /* Project object */;
+}
